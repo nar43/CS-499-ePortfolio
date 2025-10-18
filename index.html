@@ -5,15 +5,94 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nar Bhattarai | CS-499 ePortfolio</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background: #f9f9f9; color: #222; }
-    h1, h2 { color: #2b4e72; }
-    a { color: #2b4e72; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    nav { margin-bottom: 20px; }
-    nav a { margin-right: 15px; font-weight: bold; }
-    .section { margin-top: 40px; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7fb;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #2b4e72;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 2em;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      background: #fff;
+      margin: 30px auto;
+      padding: 25px;
+      max-width: 900px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2, h3 {
+      color: #2b4e72;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #2b4e72;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    iframe {
+      display: block;
+      margin: 20px auto;
+      border: none;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 700px;
+      height: 400px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #e8ecf1;
+      color: #333;
+      margin-top: 40px;
+      font-size: 14px;
+    }
   </style>
 </head>
+
 <body>
 
   <header>
@@ -28,7 +107,11 @@
 
   <section id="self" class="section">
     <h2>Professional Self-Assessment</h2>
-    <p>This self-assessment summarizes my academic journey through the Computer Science program at SNHU. It discusses my growth in collaboration, communication, algorithmic design, database management, and secure software engineering.</p>
+    <p>
+      This self-assessment summarizes my academic journey through the Computer Science program at SNHU. 
+      It highlights my growth in collaboration, communication, algorithmic design, database management, 
+      and secure software engineering.
+    </p>
     <p><a href="narratives/self-assessment.docx">📄 View Full Self-Assessment</a></p>
   </section>
 
@@ -36,7 +119,9 @@
     <h2>Artifact Enhancements</h2>
 
     <h3>Software Design & Engineering</h3>
-    <p>Enhanced OpenGL 3D Viewer Application demonstrating improved structure, modularity, and error handling.</p>
+    <p>
+      Enhanced OpenGL 3D Viewer Application demonstrating improved structure, modularity, and error handling.
+    </p>
     <ul>
       <li><a href="artifacts/software-design/original/">Original Project</a></li>
       <li><a href="artifacts/software-design/enhanced/">Enhanced Project</a></li>
@@ -44,7 +129,9 @@
     </ul>
 
     <h3>Algorithms & Data Structures</h3>
-    <p>Improved algorithmic efficiency in rendering and resource management using optimized data structures.</p>
+    <p>
+      Improved algorithmic efficiency in rendering and resource management using optimized data structures.
+    </p>
     <ul>
       <li><a href="artifacts/algorithms/original/">Original Project</a></li>
       <li><a href="artifacts/algorithms/enhanced/">Enhanced Project</a></li>
@@ -52,7 +139,9 @@
     </ul>
 
     <h3>Databases</h3>
-    <p>Integrated SQLite into an Android Event Tracking App to manage user and event data efficiently.</p>
+    <p>
+      Integrated SQLite into an Android Event Tracking App to manage user and event data efficiently.
+    </p>
     <ul>
       <li><a href="artifacts/databases/original/">Original Project</a></li>
       <li><a href="artifacts/databases/enhanced/">Enhanced Project</a></li>
@@ -62,11 +151,21 @@
 
   <section id="video" class="section">
     <h2>Code Review Video</h2>
-    <p><a href="https://youtu.be/rMHhNZIW3AM?si=-_CrKkoCMvcHotdO">🎥 Watch Code Review on YouTube</a></p>
+    <p>Below is my recorded code review walkthrough for the selected artifacts:</p>
+    <iframe 
+      src="https://www.youtube.com/embed/rMHhNZIW3AM" 
+      title="Code Review Video"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+    <p>
+      <a href="https://youtu.be/rMHhNZIW3AM?si=-_CrKkoCMvcHotdO" target="_blank">
+        🎥 Watch on YouTube
+      </a>
+    </p>
   </section>
 
   <footer>
-    <hr />
     <p>© 2025 Nar Bhattarai | CS-499 ePortfolio</p>
   </footer>
 
