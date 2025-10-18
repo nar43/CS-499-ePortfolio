@@ -103,7 +103,3 @@ This ePortfolio represents the culmination of my Computer Science degree and ref
 
 ---
 
-📫 **Contact Information**  
-**Name:** Nar Bhattarai  
-**Email:** your.email@example.com  
-**Portfolio URL:** [https://narbhattarai.github.io/](https://narbhattarai.github.io/)  
