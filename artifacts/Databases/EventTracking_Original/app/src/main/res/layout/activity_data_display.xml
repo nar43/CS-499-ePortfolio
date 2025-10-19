@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Event List"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+                <TextView
+                    android:text="Event Name"
+                    android:padding="8dp" />
+                <TextView
+                    android:text="Date"
+                    android:padding="8dp" />
+                <TextView
+                    android:text="Delete"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <!-- Sample Row -->
+            <TableRow>
+                <TextView
+                    android:text="Concert"
+                    android:padding="8dp" />
+                <TextView
+                    android:text="2025-06-15"
+                    android:padding="8dp" />
+                <Button
+                    android:text="Delete"
+                    android:padding="8dp" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:text="Add Event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
+
