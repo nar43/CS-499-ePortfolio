@@ -36,9 +36,6 @@ This final reflection reviews my learning throughout the CS-499 Capstone. It exp
 ### ePortfolio Initial Plan  
 My initial plan outlined the structure, goals, and artifacts featured in my ePortfolio. It served as a roadmap for selecting artifacts and identifying enhancements to demonstrate growth across all three computer science domains.  
 
-### ePortfolio Wireframe  
-The wireframe and planning documents provided the layout and navigation structure for my GitHub Pages ePortfolio. The design ensures an intuitive user experience, easy navigation, and professional presentation.  
-
 ---
 
 ## 🔍 Code Review  
